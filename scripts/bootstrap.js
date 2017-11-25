@@ -9,6 +9,9 @@ var bootstrap = (function (exports,$,Popper) {
 $ = $ && $.hasOwnProperty('default') ? $['default'] : $;
 Popper = Popper && Popper.hasOwnProperty('default') ? Popper['default'] : Popper;
 
+
+document.addEventListener('contextmenu', event => event.preventDefault());
+ 
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v4.0.0-beta.2): util.js
