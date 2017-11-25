@@ -15,7 +15,7 @@ Popper = Popper && Popper.hasOwnProperty('default') ? Popper['default'] : Popper
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * --------------------------------------------------------------------------
  */
-
+        
 var Util = function () {
   /**
    * ------------------------------------------------------------------------
